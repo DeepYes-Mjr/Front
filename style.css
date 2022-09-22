@@ -1,0 +1,159 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+    border-width: 0;
+    border-style: solid;
+    border-color: #e5e7eb;
+    font-family: 'Poppins', sans-serif !important;
+}
+a{
+    text-decoration: none;
+    color: #000;
+}
+button.btn a :hover{
+    color: #fff;
+}
+.headertop{
+    background-color: #f2f2f2;
+    padding: 5px 0;
+    font-size: 14px;
+}
+.cat-btn{
+    width: 100px;
+    font-weight: bold;
+}
+.top-left{
+    display: flex;
+    margin: 0px;
+    align-content: center;
+    height: 100%;
+}
+.top-left a{
+    color: #000;
+    margin: 0 10px;
+}
+form.d-flex.search{
+    width: 500px;
+}
+li .nav-item a .navbar-brand svg{
+    margin-left: 20px;
+}
+header{
+
+}
+button{
+    border: 0;
+}
+.slider__container {
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+    max-width: 1536px;
+    background-color: #F3F4F6;
+}
+
+/*dropdown */
+@media all and (min-width: 992px) {
+    .navbar .nav-item .dropdown-menu {
+        display: none;
+    }
+
+    .navbar .nav-item:hover .nav-link {
+        color: #fff;
+    }
+
+    .navbar .nav-item:hover .dropdown-menu {
+        display: block;
+    }
+
+    .navbar .nav-item .dropdown-menu {
+        margin-top: 0;
+    }
+}
+.dropdown{
+    margin-left: 10px;
+    font-weight: bold;
+}
+.bannerSlider img{
+    height: 650px;
+    width: 100%;
+}
+.btn-wishlist{
+    height: 50px;
+    width: 50px;
+}
+.title-link-wrapper{
+    display: flex;
+    grid-gap: 84rem;
+}
+.font-weight-bold{
+    display: flex;
+}
+.swiper{
+    display: flex;
+}
+.swiper-slide{
+    width: 250px;
+    margin: 10px 10px;
+}
+.swiper {
+    display: flex;
+    flex-wrap: wrap;
+}
+.col-3{
+    width: 250px;
+    margin: 10px 25px;
+}
+.small-container .sec-row {
+    display: flex;
+    margin: 2px 2px;
+}
+.product-pa-wapper{
+    grid-gap: 10rem;
+}
+.btn-wishlist{
+    size: 50px;
+    margin-left: 100px;
+}
+/* footer */
+.footer-container{
+    border-radius: 4px;
+
+}
+.service__container{
+    margin: 10px 20px;
+}
+.hr-link{
+    margin: 5px 20px;
+    display: flex;
+}
+.footer__link{
+    margin: 0 50px;
+    display: flex;
+    grid-gap: 15rem;
+}
+.extra__container{
+    display: flex;
+    margin: 0 300px;
+}
+ul li {
+    list-style: none;
+}
+.hr-line{
+    margin: auto;
+    display: flex;
+}
+.extra__row{
+    display: flex;
+    margin: 5px 20px;
+    grid-gap: 10rem;
+}
+.extra__social-media{
+    display: flex;
+    grid-gap: 1rem;
+}
